@@ -14,7 +14,7 @@ class MenuScene: ParentScene {
 	
 	public var percentage:Int = 0 {
 		didSet{
-			tip_TF.text = "Loaded: \(percentage)%"
+			tip_TF.text = "Loading: \(percentage)%"
 			if percentage == 100 {
 				createButtons()
 			}
